@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Christmas</title>
+    <link href='https://fonts.googleapis.com/css?family=Pushster' rel='stylesheet'>
+    <link rel="shortcut icon" href="./img/santa-hat.png" type="image/x-icon">
+    <link rel="stylesheet" href="./public/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="container">
+
+    <video autoplay muted loop id = "bg-video">
+        <source src = "./img/vid6.mp4" type = "video/mp4">
+      </video>
+
+    
+      
+      <div class="content">
+        <div class="content-img">
+        <img src="./img/icon7.png" alt="">
+        <h1> Giáng Sinh Đang Đến Gần  </h1>
+        <img src="./img/icon1.png" alt="">
+        </div>
+        <div class="content-img">
+        <img src="./img/icon5.png" alt="">
+        <h2> Đây là khoảng thời gian cuối năm tuyệt vời </h2>
+        <img src="./img/icon6.png" alt="">
+        </div>
+        <div class="time-countdown">
+            <div>
+                <span id="days"></span>
+                <p>days</p>
+                
+            </div>
+
+            <div>
+                <span id="hours"></span>
+                <p>hours</p>
+            </div>
+
+            <div>
+                <span id="minutes"></span>
+                <p>minutes</p>
+                
+            </div>
+
+            <div>
+                <span id="seconds"></span>
+                <p>seconds</p>
+                
+            </div>
+            
+        </div>
+        
+        <blockquote class="christmas-text">
+            <sup>
+                <span>
+                    <i class="fas fa-quote-left"></i>
+                </span>
+            </sup>
+            ❄️ Chúng tôi chúc bạn một Giáng sinh vui vẻ và năm mới hạnh phúc ❄️
+            <sup>
+                <span>
+                    <i class="fas fa-quote-right"></i>
+                </span>
+            </sup>
+        </blockquote>
+
+        <blockquote class="icon-chirstmas">
+            <img src="./img/icon1.png" alt="">
+            <img src="./img/icon2.png" alt="">
+            <img src="./img/icon3.png" alt="">
+            <img src="./img/icon4.png" alt="">
+            <img src="./img/icon5.png" alt="">
+            <img src="./img/icon6.png" alt="">
+            <img src="./img/icon7.png" alt="">
+        </blockquote>
+        
+      </div>
+      <audio id="myAudio" autoplay loop>
+        <source src="./img/lastchristmas.mp3" type="audio/mpeg">
+      </audio>
+      <button id="playButton"><img src="./img/iconmusic.png" alt=""></button>
+    </div>
+    
+    <script src="./public/main.js"></script>
+
+</body>
+</html>
